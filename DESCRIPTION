@@ -1,0 +1,12 @@
+Package: baselineWavelet
+Type: Package
+Title: baseline correction by wavelet and Whittaker Smooth algorithms
+Version: 4.0.1
+Date: 2012-11-23
+Depends: R (>= 2.15.0), Matrix
+Suggests:
+Author: Zhimin Zhang, Yizeng Liang
+Maintainer: Zhimin Zhang <zhangzhimin.csu@gmail.com>
+Description: baseline correction by wavelet and Whittaker Smooth algorithms
+License: LGPL version 2 or newer
+Packaged: Fri Nov 23 20:40:21 2012;

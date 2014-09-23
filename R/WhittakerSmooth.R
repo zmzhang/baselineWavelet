@@ -1,4 +1,4 @@
-WhittakerSmooth <- function(x,w,lambda,differences=1) {
+"WhittakerSmooth" <- function(x,w,lambda,differences=1) {
   x=as.vector(x)
   L=length(x)
   E=spMatrix(L,L,i=seq(1,L),j=seq(1,L),rep(1,L))

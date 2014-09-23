@@ -1,0 +1,12 @@
+importFrom("Matrix", spMatrix, diff, t, solve)
+
+export(
+       "cwt",
+       "getLocalMaximumCWT",
+       "getRidge",
+       "identifyMajorPeaks",
+       "widthEstimationCWT",
+       "baselineCorrectionCWT",
+	   "plotRidgeList",
+	   "WhittakerSmooth"
+       )

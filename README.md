@@ -5,8 +5,11 @@ An intelligence background-correction algorithm for highly fluorescent sample in
 ## Installation
 
 ### Intall using devtools from github
+
+"""r
 library(devtools); 
 install_github("zmzhang/baselineWavelet")
+"""
 
 ### Install from Local zip
 

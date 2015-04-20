@@ -6,10 +6,10 @@ An intelligence background-correction algorithm for highly fluorescent sample in
 
 ### Intall using devtools from github
 
-"""r
+```r
 library(devtools); 
 install_github("zmzhang/baselineWavelet")
-"""
+```
 
 ### Install from Local zip
 
@@ -35,11 +35,14 @@ Z.M. Zhang, S. Chen, Y.Z. Liang, et al., An intelligent background-correction al
 
 ## Release note of baselineWavelet
 What's news:
+
 1. What New of baselineWavelet 4.0.2:
-Running smoothly in R 3.0 and above.
+   - Running smoothly in R 3.0 and above.
 2. What New of baselineWavelet 4.0.0:
-By taking the advantage of sparse matrix in R package "Matrix", we implemented the sparse version of whittaker smoother and baselineWavelet alogrithm. Now the speed of baselineWavelet 4.0 is faster than baselineWavelet 3.0 by 100 times or more. And it was built with R 2.12.2.
-3. From version 2.0 to 3.0: Rewirte the WhittakerSmooth? function, don't use the cholskey decomposition any more.
-4. From version 1.0 - 2.0: Two functions, say baselineCorrectionCWT() and WhittakerSmoother?(), in the baselineWavelet package were modified (add a parameter) so that one could easily perform first, second or even higher differences penalties by adjusting the parameter for the purpose.
+   - By taking the advantage of sparse matrix in R package "Matrix", we implemented the sparse version of whittaker smoother and baselineWavelet alogrithm. Now the speed of baselineWavelet 4.0 is faster than baselineWavelet 3.0 by 100 times or more. And it was built with R 2.12.2.
+3. From version 2.0 to 3.0: 
+    - Rewirte the WhittakerSmooth? function, don't use the cholskey decomposition any more.
+4. From version 1.0 - 2.0: 
+    - Two functions, say baselineCorrectionCWT() and WhittakerSmoother?(), in the baselineWavelet package were modified (add a parameter) so that one could easily perform first, second or even higher differences penalties by adjusting the parameter for the purpose.
 
 

@@ -75,20 +75,6 @@ function(x,majorPeakInfo) {
     peakWidth[[paste(peakIndex.i)]]=Lef:Rig
     
   }
-      
-      
-      
-#      lmindex=1:length(localmax)
-#      plot(wCoefs_haar.i,type='l',ylim=c(min(c(x,wCoefs_haar.i)),max(c(x,wCoefs_haar.i))))
-#      lines(x,col='green')
-#      points(peakIndex,x[peakIndex],col='blue')   
-#      points(bi,x[bi])
-         
-#      points(lmindex[c(Lef,Rig)],x[c(Lef,Rig)],cex='15',col='red')
-#      points(lmindex[localmax==1],wCoefs_haar.i[localmax==1],cex='15',col='red')
-#      points(lmindex[localmax==1],x[localmax==1],cex='15',col='red')
-      
-      
 
 
   return(peakWidth)		

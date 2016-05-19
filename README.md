@@ -7,8 +7,8 @@ An intelligence background-correction algorithm for highly fluorescent sample in
 ### Intall using devtools from github
 
 ```r
-httr::set_config( httr::config( ssl_verifypeer = 0L ) )
 library(devtools); 
+httr::set_config( httr::config( ssl_verifypeer = 0L ) )
 install_github("zmzhang/baselineWavelet")
 ```
 

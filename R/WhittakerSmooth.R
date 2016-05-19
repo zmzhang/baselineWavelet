@@ -1,6 +1,9 @@
 "WhittakerSmooth" <- function(x,w,lambda,differences=1) {
   x=as.vector(x)
   L=length(x)
+  if(L<=2){
+	return(x)
+  }
   E=spMatrix(L,L,i=seq(1,L),j=seq(1,L),rep(1,L))
   D=as(diff(E,1,differences),"dgCMatrix")
   W=as(spMatrix(L,L,i=seq(1,L),j=seq(1,L),w),"dgCMatrix")

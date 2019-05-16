@@ -58,7 +58,5 @@ Du, P., Kibbe, W.A. and Lin, S.M. (2006) Improved peak detection in mass spectru
 	majorPeakInfo <- identifyMajorPeaks(exampleMS, ridgeList, wCoefs, SNR.Th=SNR.Th)
 	## Plot the identified peaks
 	peakIndex <- majorPeakInfo$peakIndex
-	plotPeak(exampleMS, peakIndex, main=paste('Identified peaks with SNR >', SNR.Th)) 
-	
 }
 \keyword{methods}

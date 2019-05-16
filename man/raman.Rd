@@ -18,6 +18,5 @@ The data set can be used for background-correct.
 }
 \examples{
 data(raman)
-names(raman)
 }
 \keyword{datasets}

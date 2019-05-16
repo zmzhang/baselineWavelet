@@ -29,7 +29,6 @@ return a matrix with same dimension as CWT coefficient matrix, wCoefs. The local
 	wCoefs <- cwt(exampleMS[5000:11000], scales=scales, wavelet='mexh')
 	
 	localMax <- getLocalMaximumCWT(wCoefs)
-	plotLocalMax(localMax)
 }
 \keyword{ methods }
 

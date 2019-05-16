@@ -6,7 +6,9 @@ export(
        "getRidge",
        "identifyMajorPeaks",
        "widthEstimationCWT",
+       "plotwidthEstimation",
        "baselineCorrectionCWT",
 	   "plotRidgeList",
-	   "WhittakerSmooth"
+	   "WhittakerSmooth",
+	   "localMaximum"
        )

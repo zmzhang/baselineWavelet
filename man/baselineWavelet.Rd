@@ -1,7 +1,7 @@
 \name{baselineWavelet-package}
 \alias{baselineWavelet-package}
 \alias{baselineWavelet}
-\docType{baselineWavelet}
+\docType{package}
 \title{
 Intelligent background-correction algorithm for highly fluorescent sample in Raman spectroscopy
 }
